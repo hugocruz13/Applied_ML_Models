@@ -1,0 +1,42 @@
+File: circuits.csv
+Columns: circuitId, circuitRef, name, location, country, lat, lng, alt, url
+----------------------------------------
+File: constructor_results.csv
+Columns: constructorResultsId, raceId, constructorId, points, status
+----------------------------------------
+File: constructor_standings.csv
+Columns: constructorStandingsId, raceId, constructorId, points, position, positionText, wins
+----------------------------------------
+File: constructors.csv
+Columns: constructorId, constructorRef, name, nationality, url
+----------------------------------------
+File: driver_standings.csv
+Columns: driverStandingsId, raceId, driverId, points, position, positionText, wins
+----------------------------------------
+File: drivers.csv
+Columns: driverId, driverRef, number, code, forename, surname, dob, nationality, url
+----------------------------------------
+File: lap_times.csv
+Columns: raceId, driverId, lap, position, time, milliseconds
+----------------------------------------
+File: pit_stops.csv
+Columns: raceId, driverId, stop, lap, time, duration, milliseconds
+----------------------------------------
+File: qualifying.csv
+Columns: qualifyId, raceId, driverId, constructorId, number, position, q1, q2, q3
+----------------------------------------
+File: races.csv
+Columns: raceId, year, round, circuitId, name, date, time, url, fp1_date, fp1_time, fp2_date, fp2_time, fp3_date, fp3_time, quali_date, quali_time, sprint_date, sprint_time
+----------------------------------------
+File: results.csv
+Columns: resultId, raceId, driverId, constructorId, number, grid, position, positionText, positionOrder, points, laps, time, milliseconds, fastestLap, rank, fastestLapTime, fastestLapSpeed, statusId
+----------------------------------------
+File: seasons.csv
+Columns: year, url
+----------------------------------------
+File: sprint_results.csv
+Columns: resultId, raceId, driverId, constructorId, number, grid, position, positionText, positionOrder, points, laps, time, milliseconds, fastestLap, fastestLapTime, statusId
+----------------------------------------
+File: status.csv
+Columns: statusId, status
+----------------------------------------
