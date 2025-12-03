@@ -208,3 +208,6 @@ __marimo__/
 
 # Data files
 data/
+
+# Aux files
+csv_columns_list.txt
